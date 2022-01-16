@@ -213,24 +213,9 @@ if __name__ == '__main__':
     voc_img = cv2.cvtColor(voc_img, cv2.COLOR_BGR2RGB)
     predict_img = cv2.imread(duck_img_url)  # read result
 
-    cv2.imwrite("result/10/img.jpg", img)
-    cv2.imwrite("result/10/voc_img.png", voc_img)
-    cv2.imwrite("result/10/predict_img.png", predict_img)
-    img_url = 'label_to_voc_dataset/voc_dataset/JPEGImages/full_duck.jpg'
-    voc_img_url = "result/10/voc_img.png"
-    predict_img_url = "result/10/predict_img.png"
-    
-    img = cv2.imread(img_url)
-    voc_img = cv2.imread(voc_img_url)
-    predict_img = cv2.imread(predict_img_url)
-    
-    plt.subplot(1, 3, 1)
-    plt.imshow(img)
-    plt.subplot(1, 3, 2)
-    plt.imshow(voc_img)
-    plt.subplot(1, 3, 3)
-    plt.imshow(predict_img)
-    plt.show()
+    cv2.imwrite("result/img.jpg", img)
+    cv2.imwrite("result/voc_img.png", voc_img)
+    cv2.imwrite("result/predict_img.png", predict_img)
 ```
 <img src="https://i.imgur.com/BE9EQ0c.png" width=55%>
    
