@@ -24,6 +24,7 @@ In this assignment, We are given an image of duck farm taken from a drone. We sh
 **Bayes’ Theorem** finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:
 
 ![](https://i.imgur.com/MXenGMd.png)
+
 where A and B are events and P(B) ≠ 0.
 
 **Posterior Probability:** the conditional probability of a class ***ω*** given an input feature vector, denoted as ***P(ω\x)***
@@ -83,9 +84,11 @@ First I installed labelme and PyQt from [Labelme Github](https://github.com/wken
 Then I start the labelme api to annotate the image
 `labelme`
 ![](https://i.imgur.com/83xecl2.jpg)
+
 Next enter the folder of labelme\examples\semantic_segmentation to put in the jpg and json file, and create a labels.txt file
 <img src="https://i.imgur.com/TIhS2Wk.png" width=55%>
 <img src="https://i.imgur.com/5OMrhi8.png" width=55%>
+
 Then run in the terminal the code to convert to voc dataset.
 ```
 $ python labelme2voc.py <data> <data_output> --labels <label.txt path>
