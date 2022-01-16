@@ -1,4 +1,5 @@
 ![](https://i.imgur.com/hivrzTC.jpg)
+
 # Pattern Recognition Assignment 1
 ###### `by 勞士杰 資工碩一 611021201       (discussed with 吳承翰)`
 ---
@@ -18,6 +19,7 @@ Github: https://github.com/LaoShihChieh/finding_ducks
 ---
 ## 1. Problem description
 In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.
+
 <img src="https://i.imgur.com/ojS6nIH.jpg" width=35%>
 
 ## 2. Bayes Classifier
@@ -53,7 +55,6 @@ A **classifier** is a procedure by which the elements of the population set are 
 **A Gaussian mixture model** is parameterized by two types of values, the mixture component weights and the component means and variances/covariances. A Gaussian mixture model with ***K*** components is stated mathematically as the following equation:
 
 
-
 ![](https://i.imgur.com/5CsNiwQ.png)
 
 $\boldsymbol{\vec u_k}$***:*** the mean for the multivariate case.
@@ -79,13 +80,16 @@ First I installed labelme and PyQt from [Labelme Github](https://github.com/wken
 `conda install pyqt`
 `conda activate labelme`
 `pip install labelme`
+
 <img src="https://i.imgur.com/sjDDOh4.png" width=55%>
 
 Then I start the labelme api to annotate the image
 `labelme`
+
 ![](https://i.imgur.com/83xecl2.jpg)
 
 Next enter the folder of labelme\examples\semantic_segmentation to put in the jpg and json file, and create a labels.txt file
+
 <img src="https://i.imgur.com/TIhS2Wk.png" width=55%>
 <img src="https://i.imgur.com/5OMrhi8.png" width=55%>
 
@@ -98,6 +102,7 @@ $ python labelme2voc.py <data> <data_output> --labels <label.txt path>
 * ***<labels.txt path>*** Path of label.txt that includes all of label attributes.
 
 You will then find a folder with the voc dataset, and within it you will find a SegmentationClassPNG with PNG images that we will be using later.
+   
 <img src="https://i.imgur.com/mhXKt1m.png" width=35%>
     
 ## 6. Final Code
