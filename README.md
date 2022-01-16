@@ -17,8 +17,7 @@ Github: https://github.com/LaoShihChieh/finding_ducks
 
 ---
 ## 1. Problem description
-In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.
-![](https://i.imgur.com/ojS6nIH.jpg){ width=35% }
+In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.![](https://i.imgur.com/ojS6nIH.jpg =35%x)
 
 ## 2. Bayes Classifier
 **Bayes’ Theorem** finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:
@@ -78,14 +77,14 @@ First I installed labelme and PyQt from [Labelme Github](https://github.com/wken
 `conda install pyqt`
 `conda activate labelme`
 `pip install labelme`
-![](https://i.imgur.com/sjDDOh4.png){ width=55% }
+![](https://i.imgur.com/sjDDOh4.png =55%x)
 
 Then I start the labelme api to annotate the image
 `labelme`
 ![](https://i.imgur.com/83xecl2.jpg)
 Next enter the folder of labelme\examples\semantic_segmentation to put in the jpg and json file, and create a labels.txt file
-![](https://i.imgur.com/TIhS2Wk.png){ width=55% }
-![](https://i.imgur.com/5OMrhi8.png){ width=55% }
+![](https://i.imgur.com/TIhS2Wk.png =55%x)
+![](https://i.imgur.com/5OMrhi8.png =55%x)
 Then run in the terminal the code to convert to voc dataset.
 ```
 $ python labelme2voc.py <data> <data_output> --labels <label.txt path>
@@ -96,7 +95,7 @@ $ python labelme2voc.py <data> <data_output> --labels <label.txt path>
 
 You will then find a folder with the voc dataset, and within it you will find a SegmentationClassPNG with PNG images that we will be using later.
 
-![](https://i.imgur.com/mhXKt1m.png){ width=35% }
+![](https://i.imgur.com/mhXKt1m.png =35%x)
     
 ## 6. Final Code
 The first python code is model.py which includes different functions that will be used and the Gaussian Mixture Model.
@@ -225,13 +224,13 @@ if __name__ == '__main__':
     plt.imshow(predict_img)
     plt.show()
 ```
-![](https://i.imgur.com/BE9EQ0c.png){ width=55% }
+![](https://i.imgur.com/BE9EQ0c.png  =55%x)
 
 ### Output
     
 We could see from the two pictures that the classifier can extract most of the ducks.
     
-![](https://i.imgur.com/ojS6nIH.jpg){ width=35% } ![](https://i.imgur.com/rZhnayx.png){ width=35% }
+![](https://i.imgur.com/ojS6nIH.jpg =35%x) ![](https://i.imgur.com/rZhnayx.png | width=35%)
 
 ## 7. Discussion 
 
