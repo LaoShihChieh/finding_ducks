@@ -1,3 +1,0 @@
-_background_
-duck
-not_duck
