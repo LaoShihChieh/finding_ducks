@@ -83,9 +83,13 @@ A **classifier** is a procedure by which the elements of the population set are 
 
 ## 3. Process
 First I installed labelme and PyQt from [Labelme Github](https://github.com/wkentaro/labelme) and [PyQt Github](https://github.com/pyqt) with pip in the terminal:
+
 `conda create -n=labelme python=3.7` 
+
 `conda install pyqt`
+
 `conda activate labelme`
+
 `pip install labelme`
 
 <img src="https://i.imgur.com/sjDDOh4.png" width=55%>
