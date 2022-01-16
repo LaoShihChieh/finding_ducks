@@ -17,12 +17,12 @@ Github: https://github.com/LaoShihChieh/finding_ducks
 
 ---
 ## 1. Problem description
-In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.![](https://i.imgur.com/ojS6nIH.jpg =35%x) <img src="https://i.imgur.com/ojS6nIH.jpg" width=35%>
+In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.!<img src="https://i.imgur.com/ojS6nIH.jpg" width=35%>
 
 ## 2. Bayes Classifier
 **Bayes’ Theorem** finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:
 
-![](https://i.imgur.com/MXenGMd.png)
+(https://i.imgur.com/MXenGMd.png)
 where A and B are events and P(B) ≠ 0.
 
 **Posterior Probability:** the conditional probability of a class ***ω*** given an input feature vector, denoted as ***P(ω\x)***
@@ -52,7 +52,7 @@ A **classifier** is a procedure by which the elements of the population set are 
 
 
 
-![](https://i.imgur.com/5CsNiwQ.png)
+(https://i.imgur.com/5CsNiwQ.png)
 
 $\boldsymbol{\vec u_k}$***:*** the mean for the multivariate case.
 
