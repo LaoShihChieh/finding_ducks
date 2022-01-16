@@ -4,7 +4,7 @@
 ---
 ## Problem: Finding Ducks
 ---
-Github: 
+Github: https://github.com/LaoShihChieh/finding_ducks
 ## Contents
 **1. Problem description**
 **2. Bayes Classifier**
