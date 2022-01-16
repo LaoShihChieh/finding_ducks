@@ -8,12 +8,19 @@
 Github: https://github.com/LaoShihChieh/finding_ducks
 ## Contents
 **1. Problem description**
+
 **2. Bayes Classifier**
+
 **3. Gaussian Mixture Model**
+
 **4. Setup**
+
 **5. Process**
+
 **6. Final Code**
+
 **7. Experience**
+
 **8. Reference**
 
 ---
