@@ -17,7 +17,7 @@ Github: https://github.com/LaoShihChieh/finding_ducks
 
 ---
 ## 1. Problem description
-In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.![](https://i.imgur.com/ojS6nIH.jpg =35%x)
+In this assignment, We are given an image of duck farm taken from a drone. We should use the Bayes classifier to extract the pixels of duck bodies from the image.![](https://i.imgur.com/ojS6nIH.jpg =35%x) <img src="https://i.imgur.com/ojS6nIH.jpg" width=35%>
 
 ## 2. Bayes Classifier
 **Bayes’ Theorem** finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:
