@@ -257,11 +257,19 @@ This assignment gave me a great sense of accomplishment, and I can't wait to sho
     
 ## 9. Reference
 Chapter 2. Bayes Classifiers: http://134.208.3.118/~ccchiang/PR/Ch2/ch2.html
+   
 Naive Bayes Classifiers: https://www.geeksforgeeks.org/naive-bayes-classifiers/
+   
 Classification rule: https://en.wikipedia.org/wiki/Classification_rule
+   
 A Gentle Introduction to the Bayes Optimal Classifier: https://machinelearningmastery.com/bayes-optimal-classifier/
+   
 Gaussian Mixture Model: https://brilliant.org/wiki/gaussian-mixture-model/
+   
 MathJax basic tutorial and quick reference: https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+   
 Notations and styles: https://hackmd.io/BXcdKqg7SD2OQqacCNYe0w?both
+   
 A hack for showing LaTeX formulas in GitHub markdown.md: https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b
+   
 圖形識別 - 利用高斯混合模型(Gaussian Mixture Model)找出鴨子:  https://hackmd.io/eL4sW-GDR9Soc68pSSa8-Q
