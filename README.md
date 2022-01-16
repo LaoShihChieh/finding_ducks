@@ -57,9 +57,9 @@ A **classifier** is a procedure by which the elements of the population set are 
 
 ![](https://i.imgur.com/5CsNiwQ.png)
 
-$\boldsymbol{\vec u_k}$***:*** the mean for the multivariate case.
+![](https://render.githubusercontent.com/render/math?math=\boldsymbol{\vec u_k})***:*** the mean for the multivariate case.
 
-$\boldsymbol{\sum _k}$***:*** the covariance matrix for the multivariate case.
+![](https://render.githubusercontent.com/render/math?math=\boldsymbol{\sum _k})***:*** the covariance matrix for the multivariate case.
 ## 3. Setup
 #### **Hardware** :
 * MacBook Air (Retina, 13-inch, 2020)
@@ -121,7 +121,7 @@ def get_pixels(img):
 
     return duck_pixels,not_duck_pixels
 ```
-### Compute the mean vector $\boldsymbol{\vec u_k}$ of the pixels within the area.
+### Compute the mean vector ![](https://render.githubusercontent.com/render/math?math=\boldsymbol{\vec u_k}) of the pixels within the area.
 ```python=
 def mean(pixels_array,img):
     RGB = [0, 0, 0]
@@ -133,7 +133,7 @@ def mean(pixels_array,img):
     
     return mean_pixels_RGB
 ```
-### Compute the covariance matrix $\boldsymbol{\sum _k}$ from the pixels list, the mean pixels, and the image.
+### Compute the covariance matrix ![](https://render.githubusercontent.com/render/math?math=\boldsymbol{\sum _k}) from the pixels list, the mean pixels, and the image.
 ```python=
 def sigma(x_RGB_pixels_list,mean_RGB,img):
     sigma = [[0, 0, 0],
