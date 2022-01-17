@@ -19,9 +19,11 @@ Github: https://github.com/LaoShihChieh/finding_ducks
 
 **6. Final Code**
 
-**7. Experience**
+**7. Discussion**
 
-**8. Reference**
+**8. Summary**
+
+**9. Reference**
 
 ---
 ## 1. Problem description
