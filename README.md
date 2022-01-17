@@ -5,7 +5,7 @@
 ---
 ## Problem: Finding Ducks
 ---
-Github: https://github.com/LaoShihChieh/finding_ducks
+HackMD: https://hackmd.io/YbXU55coTrCvHZ1TsVTDPw
 ## Contents
 **1. Problem description**
 
